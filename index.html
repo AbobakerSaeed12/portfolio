@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
     <title>Document</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+      defer
+    ></script>
+
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
-      <nav>
-        <div class="title">Abobaker Saeed</div>
+      <nav class="navbar">
+        <div class="title">Abobaker</div>
         <ul>
           <li>About</li>
           <li>Projects</li>
@@ -18,61 +24,61 @@
         </ul>
       </nav>
     </header>
-    <section class="about">
-      <img src="./images/abobaker.png" alt="abobaker's-image" />
-      <div class="intro">
-        <h2>Hello, I'm Abobaker Saeed</h2>
-        <h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-          praesentium fugit maxime voluptas quod dicta recusandae aspernatur.
-        </h4>
-      </div>
-    </section>
-    <!-- <section class="projects">
-      <div class="title">
-        Gaming Site
-        <img class="image" src="./images/gaming.png" alt="" />
-        <div class="description">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed vel
-          necessitatibus reiciendis magnam quam a eligendi blanditiis quidem
-          accusantium cum consectetur quaerat possimus neque quasi ab,
-          aspernatur molestias vero itaque.
+    <main>
+      <section class="hero">
+        <div class="intro">
+          <h4>Hello, my name is</h4>
+          <h1>Abobaker <span>Saeed</span></h1>
+          <h3>Front-End Web Developer</h3>
         </div>
-      </div>
+      </section>
 
-      <div class="title">
-        Giphy
-        <img class="image" src="./images/giphy.png" alt="" />
-        <div class="description">
+      <section class="about">
+        <h1>About Me</h1>
+        <div class="info">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed vel
           necessitatibus reiciendis magnam quam a eligendi blanditiis quidem
           accusantium cum consectetur quaerat possimus neque quasi ab,
           aspernatur molestias vero itaque.
         </div>
-      </div>
+      </section>
 
-      <div class="title">
-        Todo List
-        <img class="image" src="./images/todo.png" alt="" />
-        <div class="description">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed vel
-          necessitatibus reiciendis magnam quam a eligendi blanditiis quidem
-          accusantium cum consectetur quaerat possimus neque quasi ab,
-          aspernatur molestias vero itaque.
-        </div>
-      </div>
+      <section class="projects">
+        <div class="transition">
+          <div class="project">
+            <div class="test">
+              <h1>Gaming Site</h1>
+              <button><a>Visit</a></button>
+            </div>
+            <img class="image" src="./images/gaming.png" alt="" />
+          </div>
 
-      <div class="title">
-        Node Blog
-        <img class="image" src="./images/node.png" alt="" />
-        <div class="description">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed vel
-          necessitatibus reiciendis magnam quam a eligendi blanditiis quidem
-          accusantium cum consectetur quaerat possimus neque quasi ab,
-          aspernatur molestias vero itaque.
+          <div class="project">
+            <div class="test">
+              <h1>Giphy API</h1>
+              <button><a>Visit</a></button>
+            </div>
+            <img class="image" src="./images/giphy.png" alt="" />
+          </div>
+
+          <div class="project">
+            <div class="test">
+              <h1>Todo List</h1>
+              <button><a>Visit</a></button>
+            </div>
+            <img class="image" src="./images/todo.png" alt="" />
+          </div>
+
+          <div class="project">
+            <div class="test">
+              <h1>Node Blog</h1>
+              <button><a>Visit</a></button>
+            </div>
+            <img class="image" src="./images/node.png" alt="" />
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="Contact">Abobakersaeed12@gmail.com</section> -->
+      </section>
+      <!-- <section class="Contact">Abobakersaeed12@gmail.com</section> -->
+    </main>
   </body>
 </html>
