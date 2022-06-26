@@ -1,16 +1,16 @@
-body {
+* {
     margin: 0;
-    background: linear-gradient(#b4b4b4, #474849);
-    color: black;
-
+    padding: 0;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(206, 206, 206);
-    color: white;
+    background: linear-gradient(#dddcdc, #d5d8f5);
+    color: rgb(0, 0, 0);
     height: 50px;
+    font-size: 20px;
 }
 ul {
     display: flex;
@@ -20,25 +20,41 @@ li {
     margin: 10px;
 }
 li:hover {
-    color: aqua;
     cursor: pointer;
-
-
 }
 main {
-    margin-top: 100px;
+    background: linear-gradient(#f5e3e3, #949dff);
 }
-section.hero {
-    background-image: url(./images/abobaker.png);
-    background-repeat: no-repeat;
-    height: 50vh;
-    margin-bottom: 300px;
+div.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.intro{
-	position: absolute;
-    top: 15%;
-    right: 10%;
+.intro-p {
+    font-size: 20px;
+    margin-left: 30px;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
+.skills-title {
+    margin: 30px;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.logos {
+    width: 100px;
+    height: 100px;
+}
+
+.myimage {
+    margin:0 0 30px 20px;
+}
+
 h1{
 	color: black;
 	margin: 20px 0px 20px;
@@ -48,7 +64,7 @@ span{
 	color: #45f8f8;
 }
 h3{
-	color: white;
+	color: rgb(92, 89, 89);
 	margin-bottom: 50px;
 }
 h4{
@@ -57,58 +73,36 @@ h4{
 	font-size: 20px;
 }
 
-img.image {
-    width: 300px;
-    height: 300px;
-    transition: transform 2s;   
-}
-
-img.image:hover {
-    transform: scale(1.1);
-}
-
-section.about {
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-div.info {
-    padding: 30px;
-    border: 1px white solid;
-    width: 50%;
-    font-size: 50px;
-}
-
 .project {
-    display: grid;
-    grid-template-columns: 40% auto;
-    grid-auto-flow: row;
-    justify-content: space-between;
-    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 div.test {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
 }
-div.test button {
+button {
     align-self: center;
     width: 7rem;
     height: 2rem;
     cursor: pointer;
-    background-color: aqua;
-    transition: transform 2s;   
-
+    transition: transform 2s; 
+    margin-bottom: 1rem; 
+    background-color: #e2f5f5;
+}
+a {
+    text-decoration: none;
 }
 
-div.test > button:hover { 
+button:hover { 
    transform: scale(1.2);
+   background: linear-gradient(#e9e5e5, #313131);
 }
 
-
-
-
-
+img.image {
+    width: 300px;
+    height: 200px;
+}
