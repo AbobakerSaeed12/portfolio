@@ -85,7 +85,6 @@ div.test {
     flex-direction: column;
 }
 button {
-    align-self: center;
     width: 7rem;
     height: 2rem;
     cursor: pointer;
@@ -94,6 +93,7 @@ button {
     background-color: #e2f5f5;
 }
 a {
+    align-self: center;
     text-decoration: none;
 }
 
