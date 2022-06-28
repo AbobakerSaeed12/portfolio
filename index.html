@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+      defer
+    ></script>
+
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="title">Abobaker</div>
+        <ul>
+          <li>
+            <a href="#"> About </a>
+          </li>
+          <li>
+            <a href="#projects"> Projects </a>
+          </li>
+          <li><a href="#contact"> Contact </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <img class="myimage" src="./images/abobaker.png" alt="abobaker" />
+        <div class="intro">
+          <h4>Hello, my name is</h4>
+          <h1>Abobaker <span>Saeed</span></h1>
+          <h3>Front-End Web Developer</h3>
+          <p class="intro-p">
+            I am a passionate and creative front-end developer with industry
+            experience building websites and web applications.
+          </p>
+          <h2 class="skills-title">SKILLS:</h2>
+          <div class="skills">
+            <img class="logos" src="./images/html.png" alt="html" />
+            <img class="logos" src="./images/css.png" alt="css" />
+            <img class="logos" src="./images/js.png" alt="js" />
+            <img class="logos" src="./images/react.png" alt="react" />
+            <img class="logos" src="./images/git.png" alt="git" />
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="ptitle">
+          <h1>Projects:</h1>
+        </div>
+        <div class="transition">
+          <div class="project">
+            <div class="container">
+              <h1>Gaming Site</h1>
+              <a
+                href="https://abobakersaeed12.github.io/gamingsite"
+                target="_blank"
+              >
+                <button>Visit</button>
+              </a>
+            </div>
+            <img class="image" src="./images/gaming.png" alt="gaming site" />
+          </div>
+
+          <div class="project">
+            <div class="container">
+              <h1>Giphy API</h1>
+              <a href="https://abobakersaeed12.github.io/giphy" target="_blank">
+                <button>Visit</button>
+              </a>
+            </div>
+            <img class="image" src="./images/giphy.png" alt="giphy" />
+          </div>
+
+          <div class="project">
+            <div class="container">
+              <h1>Todo List</h1>
+              <a href="https://abobakersaeed12.github.io/myapp" target="_blank">
+                <button>Visit</button>
+              </a>
+            </div>
+            <img class="image" src="./images/todo.png" alt="todo list" />
+          </div>
+
+          <div class="project">
+            <div class="container">
+              <h1>Node Blog</h1>
+              <a
+                href="https://abobakersaeed12.github.io/capstone-project"
+                target="_blank"
+              >
+                <button>Visit</button>
+              </a>
+            </div>
+            <img class="image" src="./images/node.png" alt="node blog" />
+          </div>
+        </div>
+      </section>
+      <footer id="contact">
+        <div class="footer-logos">
+          <a href="https://www.linkedin.com/in/abobaker-saeed" target="_blank">
+            <img class="f-logo" src="./images/linkedin.png" alt="linkedin" />
+          </a>
+
+          <a href="https://github.com/AbobakerSaeed12" target="_blank">
+            <img class="f-logo" src="./images/github.png" alt="linkedin" />
+          </a>
+
+          <a href="mailto:abobakersaeed12@gmail.com? subject=message from po ">
+            <img class="f-logo" src="./images/email_logo.png" alt="linkedin" />
+          </a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

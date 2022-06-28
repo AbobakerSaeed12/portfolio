@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(#dddcdc, #d5d8f5);
+    color: rgb(0, 0, 0);
+    height: 50px;
+    font-size: 20px;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    margin: 10px;
+}
+li:hover {
+    cursor: pointer;
+    color: #767575;
+}
+main {
+    background: linear-gradient(#f5e3e3, #949dff);
+}
+div.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro-p {
+    font-size: 20px;
+    margin-left: 30px;;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.skills-title {
+    margin: 30px;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    
+}
+
+.logos {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px 0 20px;
+}
+
+.myimage {
+    margin:0 0 30px 20px;
+}
+
+h1{
+	color: black;
+	margin: 20px 0px 20px;
+	font-size: 50px;
+}
+span{
+	color: #45f8f8;
+}
+h3{
+	color: rgb(92, 89, 89);
+	margin-bottom: 50px;
+}
+h4{
+	color: rgba(255, 0, 0, 0.8);
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+button {
+    width: 7rem;
+    height: 2rem;
+    cursor: pointer;
+    transition: transform 2s; 
+    margin-bottom: 1rem; 
+    background-color: #e2f5f5;
+}
+
+a {
+    align-self: center;
+    text-decoration: none;
+    color: black;
+}
+
+button:hover { 
+   transform: scale(1.2);
+   background: linear-gradient(#e9e5e5, #313131);
+}
+
+img.image {
+    width: 300px;
+    height: 200px;
+    transition: transform 2s; 
+}
+.image:hover {
+    transform: scale(.9);
+}
+
+footer {
+    background: linear-gradient(#dddcdc, #d5d8f5);
+    margin-top: 70px;
+    width: 100%;
+    height: 150px;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.f-logo {
+    width: 100px; 
+    height: 100px;
+
+}
+
+@media screen and (max-width: 1920px) {
+    .hero {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .myimage {
+        width: 433px;
+        height: 362px;
+        margin-right: 40px;
+    }
+    .ptitle {
+        display: flex;
+        justify-content: center;
+    }
+     .transition{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
