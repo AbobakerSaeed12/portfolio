@@ -22,7 +22,11 @@ li {
 }
 a:hover {
     cursor: pointer;
+<<<<<<< HEAD
     color: #f5e3e3;
+=======
+    color: #767575;
+>>>>>>> 16ceca223b74936492fbdff75c152f3d69874bc5
 }
 main {
     background: linear-gradient(#f5e3e3, #949dff);
@@ -53,7 +57,11 @@ div.intro {
 .logos {
     width: 100px;
     height: 100px;
+<<<<<<< HEAD
     margin: 0 20px 20px 20px;
+=======
+    margin: 0 20px 10px 20px;
+>>>>>>> 16ceca223b74936492fbdff75c152f3d69874bc5
 }
 
 .myimage {
