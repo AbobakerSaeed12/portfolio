@@ -129,12 +129,14 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
-
 }
 .f-logo {
     width: 100px; 
     height: 100px;
-
+    transition: transform 1s; 
+}
+.f-logo:hover {
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 1920px) {

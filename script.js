@@ -11,4 +11,4 @@ gsap
     ease: Power4.easeout,
   })
   .from(".skills-title", { scale: 0, opacity: 0, ease: "back" })
-  .from(".logos", { opacity: 0, y: 200, stagger: 0.1, duration: 1 });
+  .from(".logos", { y: 200, opacity: 0, stagger: 0.1, duration: 1 });
