@@ -20,6 +20,11 @@ li {
     list-style: none;
     margin: 10px;
 }
+a {
+    align-self: center;
+    text-decoration: none;
+    color: black;
+}
 a:hover {
     cursor: pointer;
     color: #f5e3e3;
@@ -77,44 +82,10 @@ h4{
 	letter-spacing: 2px;
 	font-size: 20px;
 }
-
-.project {
+.container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-div.container {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-}
-button {
-    width: 7rem;
-    height: 2rem;
-    cursor: pointer;
-    transition: transform 2s; 
-    margin-bottom: 1rem; 
-    background-color: #e2f5f5;
-}
-
-a {
-    align-self: center;
-    text-decoration: none;
-    color: black;
-}
-
-button:hover { 
-   transform: scale(1.2);
-   background: linear-gradient(#e9e5e5, #313131);
-}
-
-img.image {
-    width: 300px;
-    height: 200px;
-    transition: transform 2s; 
-}
-.image:hover {
-    transform: scale(.9);
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 footer {
@@ -138,6 +109,84 @@ footer {
 .f-logo:hover {
     transform: scale(1.2);
 }
+.box {
+    position: relative;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+.box .imgbox {
+    position: relative;
+    overflow: hidden;
+
+}
+.box .imgbox img {
+    
+    width: 450px;
+    height: 450px;
+    max-width: 100%;
+    transition: transform 2s;   
+}
+.box:hover .imgbox img {
+    transform: scale(1.2);
+}
+.box .details {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    
+}
+.box:hover .details{
+    transform: scaleY(1);
+
+}
+.box .details .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: rgb(255, 248, 248);
+}
+.box .details .content h2 {
+    margin: 0;  
+    padding: 0;
+    font-size: 20px;
+    color: #A0A6FB;
+}
+
+.button {
+    width: 80%;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 12px 25px;
+    margin-top: 20px;
+    background: transparent;
+    cursor: pointer;
+   
+}
+    a.button{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .button:hover {
+        border: 1px solid red;
+        transition: 0.5s;
+        background: linear-gradient(#dddcdc, #6a77ec);
+    
+    }
 
 @media screen and (max-width: 1920px) {
     .hero {
