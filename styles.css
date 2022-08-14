@@ -155,6 +155,9 @@ footer {
     text-align: center;
     padding: 15px;
     color: rgb(255, 248, 248);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .box .details .content h2 {
     margin: 0;  
